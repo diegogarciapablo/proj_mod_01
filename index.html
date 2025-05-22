@@ -6,14 +6,71 @@
     <title>Hotel El Paraíso</title>
 </head>
 <body>
-    <header >
-        <h1 >Hotel <em>El Paraíso</em></h1>
-        <nav>
-            <a href="#about">Sobre Nosotros</a>
-            <a href="#rooms" >Habitaciones</a>
-            <a href="#services" >Servicios</a>
-            <a href="#reservation"  >Reservas</a>
-        </nav>
-    </header>
+    <center>
+        <header >
+            <h1 >Hotel <em>El Paraíso</em></h1>
+            <nav>
+                <a href="#about">Sobre Nosotros</a>
+                <a href="#rooms">Habitaciones</a>
+                <a href="#services">Servicios</a>
+                <a href="#reservation">Reservas</a>
+                <a href="https://www.linkedin.com/in/diego-garcia-pablo-199525199/">acerca del autor</a>
+            </nav>
+        </header>
+    </center>
+    
+    <main>
+        <section>
+            <section id="about">
+                <h2><strong>Bienvenido a tu refugio ideal</strong></h2>
+                <p><em>Descansa, disfruta y vive una experiencia inolvidable</em> en <strong>Hotel El Paraíso</strong>, donde la comodidad se une con la naturaleza.</p>
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Vista del Hotel" width="50%" >
+            </section>
+        </section>
+        <section id="rooms">
+            <h2><strong>Tipos de Habitaciones</strong></h2>
+            <ul>
+                <li><strong>Habitación Estándar</strong>: Confort esencial con vista al jardín</li>
+                <li><strong>Suite de Lujo</strong>: Espaciosa, elegante y con jacuzzi privado</li>
+                <li><strong>Villa Familiar</strong>: Perfecta para disfrutar en grupo o en familia</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1560347876-aeef00ee58a1" alt="Habitación de lujo" width="50%" >
+        </section>
+        <section id="services">
+            <h2><strong>Servicios Destacados</strong></h2>
+            <ol >
+                <li><strong>Piscina climatizada</strong> para todo el año</li>
+                <li><strong>Spa & Wellness</strong> con masajes relajantes</li>
+                <li><strong>Restaurante gourmet</strong> con cocina internacional</li>
+                <li><strong>Wi-Fi gratuito</strong> en todas las áreas</li>
+            </ol>
+        </section>
+        <center>
+            <section id="reservation">
+                <h2><strong>Formulario de Reserva</strong></h2>
+                <form >
+                    <label for="name"><strong>Nombre completo:</strong></label><br>
+                    <input type="text" id="name" name="name" required ><br>
+                    <label for="email"><strong>Correo electrónico:</strong></label><br>
+                    <input type="email" id="email" name="email" required ><br>
+                    <label for="room"><strong>Tipo de habitación:</strong></label><br>
+                    <select id="room" name="room" >
+                        <option value="estandar">Estándar</option>
+                        <option value="lujo">Suite de lujo</option>
+                        <option value="familiar">Villa familiar</option>
+                    </select><br>
+                    <label for="message"><strong>Comentarios adicionales:</strong></label><br>
+                    <textarea id="message" name="message" rows="4"></textarea><br>
+                    <input type="submit" value="Reservar ahora">
+                </form>
+            </section>
+        </center>
+    </main>
+    <center>
+        <footer>
+            <p>&copy; 2025 <strong>Hotel El Paraíso</strong>. Todos los derechos reservados.</p>
+        </footer>
+    </center>
+    
 </body>
 </html>
