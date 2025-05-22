@@ -33,7 +33,7 @@ Este proyecto es una página web simple y estática para un hotel ficticio llama
 
 5. Guardar los cambios. GitHub Pages generará una URL como:
 
-https://github.com/diegogarciapablo/proj_mod_01
+https://diegogarciapablo.github.io/proj_mod_01/
 
 ### Autor
 
