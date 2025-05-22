@@ -23,15 +23,15 @@ Este proyecto es una página web simple y estática para un hotel ficticio llama
 ### Cómo desplegue esta pagina en GitHub Pages
 
 
-2. Asegúrarse de que el archivo HTML principal se llame index.html.
+1. Asegúrarse de que el archivo HTML principal se llame index.html.
 
-3. ir a la sección Settings del repositorio en GitHub.
+2. ir a la sección Settings del repositorio en GitHub.
 
-4. En el menú lateral, haz clic en Pages.
+3. En el menú lateral, haz clic en Pages.
 
-5. Seleccionar la rama donde está el archivo (main, por ejemplo) y elige la carpeta raíz (/root).
+4. Seleccionar la rama donde está el archivo (main, por ejemplo) y elige la carpeta raíz (/root).
 
-6. Guardar los cambios. GitHub Pages generará una URL como:
+5. Guardar los cambios. GitHub Pages generará una URL como:
 
 https://tu-usuario.github.io/nombre-del-repositorio
 
