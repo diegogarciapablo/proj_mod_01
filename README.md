@@ -4,9 +4,9 @@ Este proyecto es una página web simple y estática para un hotel ficticio llama
 
 ### Características
 
-- Estructura HTML semántica (<!DOCTYPE html>, <html>, <head>, <body>, etc.).
+- Estructura HTML semántica ```(<!DOCTYPE html>, <html>, <head>, <body>, etc.)```.
 
-- Uso de títulos con jerarquía (<h1>, <h2>).
+- Uso de títulos con jerarquía ```(<h1>, <h2>)```.
 
 - Párrafos informativos y organizados.
 
