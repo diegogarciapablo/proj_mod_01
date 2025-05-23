@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <section id="reservation">
+            <h2><strong>Formulario de Reserva</strong></h2>
+            <form >
+                <label for="name"><strong>Nombre completo:</strong></label><br>
+                <input type="text" id="name" name="name" required ><br>
+                <label for="email"><strong>Correo electrónico:</strong></label><br>
+                <input type="email" id="email" name="email" required ><br>
+                <label for="room"><strong>Tipo de habitación:</strong></label><br>
+                <select id="room" name="room" >
+                    <option value="estandar">Estándar</option>
+                    <option value="lujo">Suite de lujo</option>
+                    <option value="familiar">Villa familiar</option>
+                </select><br>
+                <label for="message"><strong>Comentarios adicionales:</strong></label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <input type="submit" value="Reservar ahora">
+            </form>
+            <a href="index.html">
+                <button>volver</button>
+            </a>
+        </section>
+    </center>
+</body>
+</html>
