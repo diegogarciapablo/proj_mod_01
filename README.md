@@ -8,6 +8,8 @@ Este proyecto es una página web simple y estática para un hotel ficticio llama
 
 - Uso de títulos con jerarquía ```(<h1>, <h2>)```.
 
+- Navbar para navegar entre paginas.
+
 - Párrafos informativos y organizados.
 
 - Enlaces de navegación internos y externos.
@@ -16,7 +18,11 @@ Este proyecto es una página web simple y estática para un hotel ficticio llama
 
 - Listas ordenadas y desordenadas.
 
+- Paginas con contenidos independientes.
+
 - Formulario para realizar reservas con campos para nombre, correo, tipo de habitación y comentarios.
+
+- Iframe para mostrar contenido de pagina externa en un fragmento de la pagina.
 
 - Enlace al perfil de autor en LinkedIn.
 
